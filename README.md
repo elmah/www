@@ -8,7 +8,7 @@ error logging facility that is completely pluggable. This is the
 
 - [Install Jekyll][jkinst]
 - Run `jekyll serve` on your local clone
-- Hack away pages in your favority text editor
+- Hack away pages in your favorite text editor
 - [Create a pull request][pr]
 
   [elmah]: https://code.google.com/p/elmah/
