@@ -1,4 +1,5 @@
 markdown: kramdown
 highlighter: pygments
+exclude: [README.md]
 
 repository: https://github.com/elmah/www
