@@ -1,7 +1,7 @@
 ---
 title: Downloads
 layout: page
-permalink: /downloads/
+permalink: downloads/
 downloads: true
 ---
 
