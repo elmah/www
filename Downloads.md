@@ -51,6 +51,33 @@ If you downloaded the _core binary_ then you may need additional driver binaries
 | [SQLite](http://www.sqlite.org/) | [SQLite (x86)](http://code.google.com/p/elmah/downloads/detail?name=ELMAH-1.2-lib-SQLite-x32.zip) or [SQLite (x64)](http://code.google.com/p/elmah/downloads/detail?name=ELMAH-1.2-lib-SQLite-x64.zip) | Embedded in ELMAH | There is no separate DDL script available for download. `SQLiteErrorLog` in ELMAH will [create the database file](http://code.google.com/p/elmah/source/browse/src/Elmah/SQLiteErrorLog.cs?repo=1x&name=v1.2-sp2#122) and [objects within](http://code.google.com/p/elmah/source/browse/src/Elmah/SQLiteErrorLog.cs?repo=1x&name=v1.2-sp2#125) at run-time. Only the platform-specific driver binaries are needed. |
 | [Microsoft SQL Server Compact (SSCE)](http://www.microsoft.com/sqlserver/en/us/editions/compact.aspx) 4.0 | See section on private deployment in [SQLServerCompact](https://code.google.com/p/elmah/wiki/SQLServerCompact) | Embedded in ELMAH | There is no separate DDL script available for download. `SqlCompactErrorLog` in ELMAH will [create the database file](http://code.google.com/p/elmah/source/browse/src/Elmah/SqlServerCompactErrorLog.cs?repo=1x&name=v1.2-sp2#107) and [objects within](http://code.google.com/p/elmah/source/browse/src/Elmah/SqlServerCompactErrorLog.cs?repo=1x&name=v1.2-sp2#129) at run-time. |
 
+### NuGet Packages
+
+The quickest way to get started with ELMAH is to use one of the following NuGet
+packages that already contain the necessary binaries, as well as initial
+configuration for ASP.NET applications and various backing error log stores:
+
+- [elmah.corelibrary](https://www.nuget.org/packages/elmah.corelibrary/):
+  Just the library without any configuration
+- [elmah](https://www.nuget.org/packages/elmah/):
+  ELMAH with initial configuration for its ASP.NET modules and handlers
+- [elmah.xml](https://www.nuget.org/packages/elmah.xml/):
+  Configuration for logging to stand-alone XML files
+- [elmah.sqlqerver](https://www.nuget.org/packages/elmah.sqlserver/):
+  Configuration for logging to a Microsoft SQL Server (2000 or later)
+- [elmah.sqlservercompact](https://www.nuget.org/packages/elmah.sqlservercompact/):
+  Configuration for logging to a Microsoft SQL Server Compact database
+- [elmah.access](https://www.nuget.org/packages/elmah.msaccess/):
+  Configuration for logging to a Microsoft Access database
+- [elmah.mysql](https://www.nuget.org/packages/elmah.mysql/):
+  Configuration for logging to a MySQL 5.0+ database
+- [elmah.oracle](https://www.nuget.org/packages/elmah.oracle/):
+  Configuration for loggin to an Oracle database
+- [elmah.postgresql](https://www.nuget.org/packages/elmah.postgresql/):
+  Configuration for logging to a PostgreSQL database
+  
+Don't forget to also check-out the [many packages on NuGet that build on top of ELMAH](https://www.nuget.org/packages?q=ELMAH).
+
 ## Older Releases
 
 ### ELMAH 1.2 SP1
