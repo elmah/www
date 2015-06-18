@@ -2,6 +2,7 @@
 title: Securing Error Log Pages
 layout: page
 permalink: a/securing-error-log-pages/
+article: true
 ---
 
 You can secure ELMAH's display or feeds in two ways:

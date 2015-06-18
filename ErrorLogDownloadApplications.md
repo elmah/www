@@ -2,6 +2,7 @@
 title: Error Log Download Applications
 layout: page
 permalink: a/error-log-download-applications/
+article: true
 ---
 
 ELMAH allows the entire error log to be downloaded as a single CSV format that be can useful for occasional and ad-hoc analysis, filtering and charting using [Microsoft Excel](http://www.microsoft.com/excel/) and/or [Microsoft Log Parser](http://www.microsoft.com/technet/scriptcenter/tools/logparser/default.mspx). The download feature also supports an additional format dubbed in ELMAH as HTML-JSONP. This format enables interesting, dynamic and asynchronous reporting pages to be developed on top of the error log.
