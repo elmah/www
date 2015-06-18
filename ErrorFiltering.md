@@ -8,6 +8,10 @@ article: true
 * TOC
 {:toc}
 
+See also:
+
+- [Error Filtering Examples](examples/)
+
 ## Introduction
 
 When an unhandled exception is reported to ELMAH by ASP.NET, an application can decide whether to dismiss the exception or not. There are two ways for an application to do this, either programmatically or declaratively via the configuration file. The simpler of the two is programmatically because you do not need to learn anything new except write an event handler in your favorite language. The downside of the programmatic approach is that you need to write code and modify your web application (requiring possibly a static re-compile). With the configuration-based approach, you can simply apply filtering of exceptions to a running application.
