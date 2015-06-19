@@ -7,7 +7,15 @@ permalink: a/
 {% assign sorted_pages = site.pages | sort: 'title' %}
 
 {% for page in sorted_pages %}
-{% if page.article %}
+{% if page.article and page.deprecated != true %}
+- [{{ page.title }}]({{ page.url }})
+{% endif %}
+{% endfor %}
+
+The following have been deprecated or contain very date information:
+
+{% for page in sorted_pages %}
+{% if page.article and page.deprecated %}
 - [{{ page.title }}]({{ page.url }})
 {% endif %}
 {% endfor %}
