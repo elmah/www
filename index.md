@@ -20,9 +20,9 @@ Once ELMAH has been dropped into a running web application and configured approp
   <p>See also:</p>
   
   <ul>
-    <li><a href="http://code.google.com/p/elmah/issues/list?q=label%3AMilestone-Release1.2&amp;can=1">What’s new and fixed in 1.2</a></li>
-    <li><a href="http://code.google.com/p/elmah/issues/list?q=label%3AMilestone-Release1.2SP1&amp;can=1">What’s fixed in 1.2 SP1</a></li>
-    <li><a href="http://code.google.com/p/elmah/issues/list?q=label%3AMilestone-Release1.2SP2&amp;can=1">What’s fixed in 1.2 SP2</a></li>
+    <li><a href="http://code.google.com/p/elmah/issues/list?q=label%3AMilestone-Release1.2&amp;can=1">What&rsquo;s new and fixed in 1.2</a></li>
+    <li><a href="http://code.google.com/p/elmah/issues/list?q=label%3AMilestone-Release1.2SP1&amp;can=1">What&rsquo;s fixed in 1.2 SP1</a></li>
+    <li><a href="http://code.google.com/p/elmah/issues/list?q=label%3AMilestone-Release1.2SP2&amp;can=1">What&rsquo;s fixed in 1.2 SP2</a></li>
   </ul>
 </div>
 
