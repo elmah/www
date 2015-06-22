@@ -4,6 +4,9 @@ layout: page
 permalink: sqlservercompact/
 ---
 
+* TOC 
+{:toc}
+
 ## Introduction
 
 ELMAH, from version 1.2 and onwards, supports the logging of errors to a [SQL Server Compact](http://www.microsoft.com/sqlserver/en/us/editions/compact.aspx) 4.0 database file using the `SqlServerCompactErrorLog`, but only against .NET Framework version 3.5 SP1 or a later release. It provides this support using the [SQL Server Compact ADO.NET Provider](http://msdn.microsoft.com/en-us/library/system.data.sqlserverce.aspx). The provider supports medium trust environments under ASP.NET 4.0 but requires full trust on earlier versions.
