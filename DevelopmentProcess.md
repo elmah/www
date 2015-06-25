@@ -164,6 +164,6 @@ To request a code review, create a new pull request from your online clone to th
 
 [Mercurial: The definitive guide](http://hgbook.red-bean.com/)
 
-<hr/>
+---
 
 This wiki was adapted from the [Development Process wiki of mytracks project](http://code.google.com/p/mytracks/wiki/DevelopmentProcess).
