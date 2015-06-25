@@ -60,13 +60,13 @@ To create the online clone, click on **Fork** link. Give your clone a name and d
 To create the local clone, click on **Source** tab of your clone page, and then use the checkout command provided there:
 
 {% highlight bash %}
-hg clone https://johndoe@bitbucket.org/project-elmah/main johndoe-elmah
+hg clone https://johndoe@bitbucket.org/johndoe/main johndoe-elmah
 {% endhighlight %}
 
 Optionally, you can add your username and password to it (so you don't have to type them in every time):
 
 {% highlight bash %}
-hg clone https://johndoe:mypassword@bitbucket.org/project-elmah/main johndoe-elmah
+hg clone https://johndoe@bitbucket.org/johndoe/main johndoe-elmah
 {% endhighlight %}
 
 and that's it - you have a local copy of your clone (in this example, in subdirectory johndoe-elmah) which you can then make changes to.
@@ -133,7 +133,7 @@ Pushing changes to your online clone is incredibly simple:
 
 {% highlight bash %}
 $ hg push
-pushing to https://johndoe:***@bitbucket.org/project-elmah/main
+pushing to https://johndoe:***@bitbucket.org/johndoe/main
 searching for changes
 adding changesets
 adding manifests
@@ -147,7 +147,7 @@ If you want to see what changes you're going to push before you do it, you can a
 
 {% highlight bash %}
 $ hg outgoing
-comparing with https://johndoe:***@bitbucket.org/project-elmah/main
+comparing with https://johndoe:***@bitbucket.org/johndoe/main
 searching for changes
 changeset:   5:b6fed4f21233
 tag:         tip
