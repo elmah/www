@@ -158,7 +158,7 @@ summary:     Added an extra line of output
 
 ### Requesting a code review
 
-To request a code review, open a new Issue in ELMAH, select template Review request, fill out the fields from the template. Someone will then review the code changes and integrate them when ready.
+To request a code review, create a new pull request from your online clone to the original online clone of ELMAH. Someone will then review the code changes and integrate them when ready.
 
 ## References
 
