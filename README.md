@@ -20,9 +20,9 @@ error logging facility that is completely pluggable. This is the
 
 On Windows, the simplest installation method is to use
 [Portable Jekyll][PortableJekyll]. When using `jekyll serve` or `jekyll build`,
-file monitoring can be and cause constant rebuilding of the static version of
-the site. Use the `--force_polling` as a workaround for either the `server` or
-`build` subcommand.
+file monitoring can be problematic, causing constant rebuilding of the static
+version of the site. Use the `--force_polling` as a workaround for either the
+`server` or `build` subcommand.
 
 
   [elmah]: https://code.google.com/p/elmah/
