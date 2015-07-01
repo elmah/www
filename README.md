@@ -16,6 +16,12 @@ error logging facility that is completely pluggable. This is the
   issue being addressed
 - [Create a pull request][pr]
 
+Make commits atomic and logically coherent. It makes reviews easier and
+reverting easier. Avoid, for example, bundling multiple and unrelated
+changes together into the same commit even if they address the same issue.
+If you are using *and* in your commit message, chances are good you are
+bundling more than one (unrelated) change.
+
 ### Contributing on Windows
 
 On Windows, the simplest installation method is to use
