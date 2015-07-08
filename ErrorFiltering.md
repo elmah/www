@@ -153,7 +153,7 @@ If you are familiar with the JavaScript programming language then you can also u
                 // @import System.IO
                 // @import System.Web
 
-                HttpStatusCode == 404
+                $.HttpStatusCode == 404
                 || $.BaseException instanceof FileNotFoundException 
                 || $.BaseException instanceof HttpRequestValidationException
                 /* Using RegExp below (see http://msdn.microsoft.com/en-us/library/h6e2eb7w.aspx) */
