@@ -25,7 +25,7 @@ For .NET Framework 2.0, however, only `msbuild.exe` and the runtime is needed. M
 
 The `build.cmd` in the root of the distribution uses the Visual C# compiler to compile the sources. The script takes a single argument of that specifies the .NET Framework runtime to target. You can specify `all`, `1.0`, `1.1` or `2.0`. Running the script without any arguments displays usage help, as shown in the following example:
 
-{% highlight bash %}
+{% highlight text %}
 ELMAH - Error Logging Modules and Handlers for ASP.NET
 Copyright (c) 2004-9 Atif Aziz. All rights reserved.
 
