@@ -15,13 +15,13 @@ In its default state, the module is configured as if you had the following under
 
 {% highlight xml %}
 <errorTweet
-userName=""
-password=""
-statusFormat="{Message}"
-maxStatusLength="140"
-ellipsis="..."
-url="http://twitter.com/statuses/update.xml"
-formFormat="status={0}" />
+	userName=""
+	password=""
+	statusFormat="{Message}"
+	maxStatusLength="140"
+	ellipsis="..."
+	url="http://twitter.com/statuses/update.xml"
+	formFormat="status={0}" />
 {% endhighlight %}
 
 Following is a breif explanation of the attributes:
@@ -50,16 +50,16 @@ Next, [register with prowlapp.com](https://www.prowlapp.com/register.php) and on
 
 {% highlight xml %}
 <section
-name="errorTweet" requirePermission="false"
-type="Elmah.ErrorTweetSectionHandler, Elmah" />
+	name="errorTweet" requirePermission="false"
+	type="Elmah.ErrorTweetSectionHandler, Elmah" />
 {% endhighlight %}
 
 Next, add the following section under the `<elmah>` section group:
 
 {% highlight xml %}
 <errorTweet
-formFormat="apikey=APIKEY&amp;application=ELMAH&amp;event=Error%20%40%20example.com&amp;priority=high&amp;description={0}"
-url="https://api.prowlapp.com/publicapi/add" />
+	formFormat="apikey=APIKEY&amp;application=ELMAH&amp;event=Error%20%40%20example.com&amp;priority=high&amp;description={0}"
+	url="https://api.prowlapp.com/publicapi/add" />
 {% endhighlight %}
 
 Replace `APIKEY` in caps above with [your Prowl API key](https://www.prowlapp.com/api_settings.php). You may also want to replace `example.com` or other parts of the `formFormat` attribute to more meaningful values. See the [Prowl third-party API](http://www.prowlapp.com/api.php#add) for more details and the meaning of the various form fields.
@@ -68,17 +68,17 @@ You will then need to register the HTTP module by adding the following element i
 
 {% highlight xml %}
 <add
-name="ErrorTweet"
-type="Elmah.ErrorTweetModule, Elmah" />
+	name="ErrorTweet"
+	type="Elmah.ErrorTweetModule, Elmah" />
 {% endhighlight %}
 
 If you are using IIS 7 or later then you will need the following entry in the `<modules>` section:
 
 {% highlight xml %}
 <add
-name="ErrorTweet"
-type="Elmah.ErrorTweetModule, Elmah"
-preCondition="managedHandler" />
+	name="ErrorTweet"
+	type="Elmah.ErrorTweetModule, Elmah"
+	preCondition="managedHandler" />
 {% endhighlight %}
 
 That's it! Next time you get an error, you should see a notification appear on your device, similar to screen captures below!
