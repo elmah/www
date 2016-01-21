@@ -84,6 +84,6 @@ That's it! Next time you get an error, you should see a notification appear on y
 <img width='320' height='568' src='http://wiki.elmah.googlecode.com/hg/prowl-iphone-lock.png' />
 <img width='320' height='568' src='http://wiki.elmah.googlecode.com/hg/prowl-iphone.png' />
 
-Note that you can also use ErrorFiltering together with `ErrorTweetModule`. Just make sure that `ErrorTweetModule` is registered _before_ `ErrorFilterModule` in the modules section.
+Note that you can also use [error filtering](/a/error-filtering/) together with `ErrorTweetModule`. Just make sure that `ErrorTweetModule` is registered _before_ `ErrorFilterModule` in the modules section.
 
 You can now imagine how you can use `ErrorTweetModule` to also send error notifications to a custom in-house service!
