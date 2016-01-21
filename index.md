@@ -30,9 +30,9 @@ Once ELMAH has been dropped into a running web application and configured approp
 
   * Log errors to several back-end storages:
     * [Microsoft SQL Server](http://www.microsoft.com/sql/)
-    * [Oracle](http://www.oracle.com/) ([OracleErrorLog](https://www.assembla.com/spaces/elmah/subversion/source/HEAD/tags/REL-1.2/src/Elmah/OracleErrorLog.cs))
+    * [Oracle](http://www.oracle.com/) ([`OracleErrorLog`](https://www.assembla.com/spaces/elmah/subversion/source/HEAD/tags/REL-1.2/src/Elmah/OracleErrorLog.cs))
     * [SQLite](http://www.sqlite.org/) (version 3) database file
-    * [Access Microsoft Access] ([AccessErrorLog](https://www.assembla.com/spaces/elmah/subversion/source/HEAD/tags/REL-1.2/src/Elmah/AccessErrorLog.cs))
+    * [Microsoft Access](https://code.google.com/p/elmah/wiki/Access) ([`AccessErrorLog`](https://www.assembla.com/spaces/elmah/subversion/source/HEAD/tags/REL-1.2/src/Elmah/AccessErrorLog.cs))
     * <del>[VistaDB](http://www.vistadb.net/) ([VistaDBErrorLog](https://www.assembla.com/spaces/elmah/subversion/source/HEAD/tags/REL-1.1/src/Elmah/VistaDBErrorLog.cs))</del>; deprecated in release 1.2
     * Loose XML files
     * RAM (in-memory)
@@ -49,15 +49,15 @@ Once ELMAH has been dropped into a running web application and configured approp
   * Access the raw XML behind any logged error from its details page, making it easier to get to information (like form data, including [View State](http://msdn2.microsoft.com/en-us/library/ms972976.aspx)) that, until now, had to be grabbed directly out of the error log's backing store.
   * Supports ASP.NET web application root operator (`~`) in paths for file-based error log implementations.
   * Check if any ELMAH installation is up to date through its _about page_.
-  * Run a self-contained demo Web site showing error logging and mailing in action right out of the box. Run [demo.cmd](https://www.assembla.com/spaces/elmah/subversion/source/HEAD/tags/REL-1.2/demo.cmd) in the root of the distribution.
-  * Use `MsAjaxDeltaErrorLogModule` to log errors during partial updates enabled by [UpdatePanel](http://msdn.microsoft.com/en-us/library/system.web.ui.updatepanel.aspx) in Microsoft ASP.NET AJAX
-  * Use [ErrorLogDataSourceAdapter](https://www.assembla.com/spaces/elmah/subversion/source/HEAD/tags/REL-1.2/src/Elmah/ErrorLogDataSourceAdapter.cs) together with [ObjectDataSource](http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx) from ASP.NET to create your own custom views of the error log, almost purely in server-side markup and without a line of code!
+  * Run a self-contained demo Web site showing error logging and mailing in action right out of the box. Run [`demo.cmd`](https://www.assembla.com/spaces/elmah/subversion/source/HEAD/tags/REL-1.2/demo.cmd) in the root of the distribution.
+  * Use `MsAjaxDeltaErrorLogModule` to log errors during partial updates enabled by [`UpdatePanel`](http://msdn.microsoft.com/en-us/library/system.web.ui.updatepanel.aspx) in Microsoft ASP.NET AJAX
+  * Use [`ErrorLogDataSourceAdapter`](https://www.assembla.com/spaces/elmah/subversion/source/HEAD/tags/REL-1.2/src/Elmah/ErrorLogDataSourceAdapter.cs) together with [`ObjectDataSource`](http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx) from ASP.NET to create your own custom views of the error log, almost purely in server-side markup and without a line of code!
   * Get error data in [JSON](http://www.json.org/) (in addition to XML) from the detail page of an error.
   * Supports the [`|DataDirectory|` macro](http://blogs.msdn.com/smartclientdata/archive/2005/08/26/456886.aspx) to avoid absolute paths in connection strings.
-  * Use JavaScript to express complex conditions for [filtering exceptions](/a/error-filtering/) in a more concise and familiar manner. See [sample web.config](https://www.assembla.com/spaces/elmah/subversion/source/HEAD/tags/REL-1.2/samples/web.config) for examples.
+  * Use JavaScript to express complex conditions for [filtering exceptions](/a/error-filtering/) in a more concise and familiar manner. See [sample `web.config`](https://www.assembla.com/spaces/elmah/subversion/source/HEAD/tags/REL-1.2/samples/web.config) for examples.
   * Compiled for .NET 1.x and 2.0; run on .NET 1.x, 2.0. 3.x and 4.0.
   * Sources include solution files for Visual Studio 2002, 2003 and 2010.
-  * And, of course, [lots of fixes](https://github.com/elmah/Elmah/issues?q=is%3Aissue+is%3Aclosed) from field testing. Yep, that's a feature too! :)
+  * And, of course, [lots of fixes](https://github.com/elmah/Elmah/issues?q=is%3Aissue+is%3Aclosed) from field testing. Yep, that's a feature too! :smile:
 
 ## ELMAH in Action
 
@@ -65,4 +65,4 @@ Following is a screenshot of Firefox displaying the error log page as provided b
 
 ![Home Shot](img/homeshot.png)
 
-To learn more about ELMAH, see the MSDN article &ldquo;[Using HTTP Modules and Handlers to Create Pluggable ASP.NET Components](http://msdn2.microsoft.com/en-us/library/aa479332.aspx)&rdquo; by [Scott Mitchell](http://www.4guysfromrolla.com/ScottMitchell.shtml) and [Atif Aziz](http://www.raboof.com/).
+To learn more about ELMAH, see the MSDN article "[Using HTTP Modules and Handlers to Create Pluggable ASP.NET Components](http://msdn2.microsoft.com/en-us/library/aa479332.aspx)" by [Scott Mitchell](http://www.4guysfromrolla.com/ScottMitchell.shtml) and [Atif Aziz](http://www.raboof.com/).
