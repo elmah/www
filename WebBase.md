@@ -92,12 +92,14 @@ on the web? [Why not drop a line and let us know?](https://github.com/elmah/www/
   * [Integrating ELMAH with Umbraco](http://blog.leekelleher.com/2009/04/23/integrating-elmah-with-umbraco/)
   * [ELMAH: Error Logging Modules and Handlers for ASP.NET (and MVC too!)](http://www.hanselman.com/blog/ELMAHErrorLoggingModulesAndHandlersForASPNETAndMVCToo.aspx)
   * [How to get ELMAH to work with ASP.NET MVC HandleError attribute?](http://danswatik.com/index.php/2009/04/23/how-to-get-elmah-to-work-with-aspnet-mvc-handleerror-attribute/)
+  * [MSDN Toolbox, April 2008](http://web.archive.org/web/20140727091008/http://msdn.microsoft.com/en-us/magazine/cc500592.aspx)
   * Tutorial - Log de Excepções ELMAH (Portuguese): [Parte 1](http://www.istomesmo.com/2008/02/07/tutorial-log-de-excepes-elmah-parte-1/), [Parte 2](http://www.istomesmo.com/2008/02/20/tutorial-log-de-excepes-elmah-parte-2/)
   * [ELMAH ASP.NET Error logging on MVC](http://www.tigraine.at/2009/04/20/elmah-aspnet-error-logging-on-mvc/)
   * [ELMAH integration to ASP.NET in simple steps](http://blog.ninethsense.com/dotnet/elmah-integration-to-aspnet-in-simple-steps/)
   * [Introducing Elmah for ASP.NET 2.0, 1.1](http://www.myonlyblog.com/2007/12/introducing-elmah-for-aspnet-20-11.html)
   * [New SQLite provider for ELMAH](http://dotnetslackers.com/community/blogs/simoneb/archive/2007/09/06/New-SQLite-provider-for-ELMAH.aspx)
   * [Securely Implement ELMAH For Plug And Play Error Logging](http://haacked.com/archive/2007/07/24/securely-implement-elmah-for-plug-and-play-error-logging.aspx)
+  * [MSDN Toolbox, August 2006](http://web.archive.org/web/20150406172626/https://msdn.microsoft.com/en-us/magazine/cc163565.aspx)
 
 ## Screencasts
 
