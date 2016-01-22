@@ -9,14 +9,14 @@ ELMAH supports the logging of errors to an Oracle data store using the `OracleEr
 
 ## Configuring Your Database
 
-The first thing you need to do in order to use the `OracleErrorLog` is to configure your database. The ELMAH source code includes a file called [`Oracle.sql`](http://elmah.googlecode.com/svn/trunk/src/Elmah/Oracle.sql) which is the basis for everything you need to do.
+The first thing you need to do in order to use the `OracleErrorLog` is to configure your database. The ELMAH source code includes a file called [`Oracle.sql`][orasql] which is the basis for everything you need to do.
 
 ### The Simple Way
 
 The simplest way to get your database up and running is to:
 
   1. Log into Oracle as the owner of the objects that you are going to create (probably using SQL\*Plus)
-  1. Run the [`Oracle.sql`](http://elmah.googlecode.com/svn/trunk/src/Elmah/Oracle.sql) script as is
+  1. Run the [`Oracle.sql`][orasql] script as is
 
 NB In order to run the script, the logged in user will require `CREATE TABLE`, `CREATE PROCEDURE`, and `CREATE SEQUENCE` privileges.
 
@@ -39,15 +39,15 @@ To do this, modify all the `CREATE` statements to be qualified with the owner's 
 #### 2) Which user will connect to the schema through ASP.NET?
 
 If you are planning to use the data owner, you don't have to do anything else, as your database is set up and ready to go.
-However, if you want to lock things down, you will need to `GRANT EXECUTE` privileges on the Oracle packages `pkg_elmah$log_error` and `pkg_elmah$get_error`. The comments at the end of the [`Oracle.sql`](http://elmah.googlecode.com/svn/trunk/src/Elmah/Oracle.sql) file give you three options on how to do this.
+However, if you want to lock things down, you will need to `GRANT EXECUTE` privileges on the Oracle packages `pkg_elmah$log_error` and `pkg_elmah$get_error`. The comments at the end of the [`Oracle.sql`][orasql] file give you three options on how to do this.
 
-NB If you do take this approach, you will need to set the `schemaOwner` parameter in your `web.config`. In which case, please look at the sample [`web.config`](http://elmah.googlecode.com/svn/trunk/samples/web.config) file, which offers guidance.
+NB If you do take this approach, you will need to set the `schemaOwner` parameter in your `web.config`. In which case, please look at the sample [`web.config`][web.config] file, which offers guidance.
 
 ## Configuring ELMAH
 
 So at this point, Oracle is set up and you're pretty much done!!
 
-You now need to set up your web.config to use Elmah and in particular the Oracle implementation. The best place to start here is to look in the sample [web.config](http://elmah.googlecode.com/svn/trunk/samples/web.config) file, which contains commented examples of how to configure Elmah with each available implementation, including Oracle.
+You now need to set up your web.config to use Elmah and in particular the Oracle implementation. The best place to start here is to look in the sample [`web.config`][web.config] file, which contains commented examples of how to configure Elmah with each available implementation, including Oracle.
 
 NB You can use the Oracle implementation across multiple websites, or have a separate database for each one. You can set an application name for each website using the `applicationName="xxx"` setting, or you can leave Elmah to infer the application name by itself.
 
@@ -71,3 +71,7 @@ Here is an example for ASP.NET 2.0:
     -->
 </elmah>
 {% endhighlight xml %}
+
+
+  [orasql]: https://www.assembla.com/spaces/elmah/subversion/source/HEAD/trunk/src/Elmah/Oracle.sql
+  [web.config]: https://www.assembla.com/spaces/elmah/subversion/source/HEAD/trunk/samples/web.config
