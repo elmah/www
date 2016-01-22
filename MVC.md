@@ -6,6 +6,7 @@ article: true
 ---
 
 <div class="note info">
+  <h5>Historical</h5>
   <p>
     Since ASP.NET MVC 1.0 ignores <code>.axd</code> rules by default this Guide has become mostly irrelevant. For detailed installation instructions look at the <a href="http://dotnetslackers.com/articles/aspnet/ErrorLoggingModulesAndHandlers.aspx">DotNetSlackers Article</a>.
   </p>
