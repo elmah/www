@@ -60,7 +60,7 @@ I’d suggest you read the wiki articles on how to configure ELMAH correctly, bu
 
 This instructs ELMAH to create XML files in your `App_Data` directory (so make sure the ASP.NET process has sufficient access rights to that folder) and generate output like this:
 
-![http://www.tigraine.at/wp-content/uploads/2009/04/image1.png](http://www.tigraine.at/wp-content/uploads/2009/04/image1.png)
+![Error XML files in ASP.NET application data directory](http://www.tigraine.at/wp-content/uploads/2009/04/image1.png)
 
 ## Step 4: Configure routing
 
@@ -79,7 +79,7 @@ public static void RegisterRoutes(RouteCollection routes)
 
 Once all the above is done, you’ll see all unhandled exceptions that result in a yellow screen-of-death be also logged into the XML files inside your `App_Data` and you can then watch them remotely by accessing `http://server/elmah.axd`. You’ll get a rather nice overview page like this one:
 
-![http://www.tigraine.at/wp-content/uploads/2009/04/image2.png](http://www.tigraine.at/wp-content/uploads/2009/04/image2.png)
+![Error log](http://www.tigraine.at/wp-content/uploads/2009/04/image2.png)
 
 Congratulations, you have set up ELMAH on ASP.NET MVC and configured it to log all errors to XML Files.
 I strongly suggest you now read [how to secure the `Errorlog`](/a/securing-error-log-pages) to prevent strangers from reading your logs.
