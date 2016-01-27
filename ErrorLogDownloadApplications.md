@@ -55,9 +55,9 @@ Note the the `hrefs` array can be used to obtain further details about the error
 
 The callback function should be designed to handle duplicate entires and a changing total number of errors. Both can happen, for example, when new errors get logged while the log is being downloaded. This is the reason ELMAH delivers the total count of error with each callback and page of errors.
 
-[Elvue][elvue] is an open source and a working example of a single HTML page that produces a tabular and graphical report of the types of errors logged in an ELMAH error log (see screen shot below). You are encouraged to study the source and also contribute ideas.
+[Elvue][elvue] is an open source and a working example of a single HTML page that produces a tabular and graphical report of the types of errors logged in an ELMAH error log (see screenshot below). You are encouraged to study the source and also contribute ideas.
 
-<img width='800' height='609' src='http://wiki.elmah.googlecode.com/hg/elvue.png' />
+![Elvue iPad Screenshot](/img/elvue.png)
 
 
   [elvue]: https://github.com/elmah/elvue
