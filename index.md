@@ -16,7 +16,7 @@ Once ELMAH has been dropped into a running web application and configured approp
   * An RSS feed of the last 15 errors from the log.
 
 <div class="note">
-  <h5>ELMAH 1.2 Service Pack (SP) 2 <a href="https://bitbucket.org/project-elmah/main/wiki/Downloads">now available</a></h5>
+  <h5>ELMAH 1.2 Service Pack (SP) 2 <a href="https://elmah.github.io/downloads/">now available</a></h5>
   <p>See also:</p>
   
   <ul>
