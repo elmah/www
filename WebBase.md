@@ -27,6 +27,7 @@ on the web? [Why not drop a line and let us know?](https://github.com/elmah/www/
 
 ## Blogs
 
+  * [Code First Migration Script](http://www.eonasdan.com/home/elmah-code-first-migration)
   * [How to log errors to ELMAH programmatically](http://blog.elmah.io/how-to-log-errors-to-elmah-programmatically/)
   * [WCF Logging with ELMAH](http://vivekcek.wordpress.com/2014/06/24/wcf-logging-with-elmah/)
   * [Web API 2.1 - Logging ALL unhandled exceptions with ELMAH](http://jasonwatmore.com/post/2014/05/03/Getting-ELMAH-to-catch-ALL-unhandled-exceptions-in-Web-API-21.aspx)
