@@ -12,7 +12,7 @@ permalink: a/
 {% endif %}
 {% endfor %}
 
-The following have been deprecated or contain very date information:
+The following have been deprecated or contain very dated information:
 
 {% for page in sorted_pages %}
 {% if page.article and page.deprecated %}
