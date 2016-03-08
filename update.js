@@ -68,7 +68,7 @@ ELMAH.checkForUpdate = function(info) {
             'Your version of ELMAH is out of date. ' +
             'The latest version is ' + currentVersion + ' (RELEASE). ' + 
             'Go to downloads?')) {
-            window.location.href = 'http://code.google.com/p/elmah/wiki/Downloads?tm=2';
+            window.location.href = 'https://elmah.github.io/downloads/';
         }
     }
     else
