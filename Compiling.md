@@ -5,8 +5,6 @@ permalink: a/compiling/
 article: true
 ---
 
-A lot changed from ELMAH 1x to ELMAH 2x, why this document is split into two parts.
-
 ## ELMAH 2x
 
 You can compile ELMAH from the sources in one of two ways:
