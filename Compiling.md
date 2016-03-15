@@ -20,7 +20,7 @@ Use the Microsoft Visual Studio solution named Elmah.sln found in the root direc
 
 The `build.cmd` script launches MSBuild to compile the solution from the command-line. The batch script detects the versions installed on your system and builds only using those versions that are found to be installed. The detection is very simple. It expects to find the various MSBuild versions to be installed in their known default locations. If you supplied a custom path during installation, you may have to adjust the script accordingly.
 
-## ELMAH 1x
+## ELMAH 1.2 SP2 and Earlier
 
 You can compile ELMAH from the sources in one of three ways:
 
