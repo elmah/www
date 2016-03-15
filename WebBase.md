@@ -27,6 +27,8 @@ on the web? [Why not drop a line and let us know?](https://github.com/elmah/www/
 
 ## Blogs
 
+  * [ELMAH Configuration Validator](http://blog.elmah.io/elmah-configuration-validator/)
+  * [ELMAH Security Validator](http://blog.elmah.io/improvement-ten-elmah-security-validator/)
   * [Code First Migration Script](http://www.eonasdan.com/home/elmah-code-first-migration)
   * [How to log errors to ELMAH programmatically](http://blog.elmah.io/how-to-log-errors-to-elmah-programmatically/)
   * [WCF Logging with ELMAH](http://vivekcek.wordpress.com/2014/06/24/wcf-logging-with-elmah/)
@@ -115,6 +117,11 @@ on the web? [Why not drop a line and let us know?](https://github.com/elmah/www/
 ## Podcasts
 
   * [ELMAH at HighOnCoding](http://highoncoding.com/Podcasts/531_Atif_Aziz_Log_Errors_Using_ELMAH.aspx)
+
+## Tools
+
+  * [ELMAH Configuration Validator](https://elmah.io/tools/configvalidator)
+  * [ELMAH Security Validator](https://elmah.io/tools/securityvalidator)
 
 ## Attic
 
