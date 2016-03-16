@@ -5,8 +5,6 @@ permalink: a/compiling/
 article: true
 ---
 
-## ELMAH 2x
-
 You can compile ELMAH from the sources in one of two ways:
 
   * Interactively, using solution and project files supplied for Microsoft Visual Studio.
