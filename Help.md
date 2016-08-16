@@ -9,7 +9,7 @@ Need help with ELMAH? Try these resource&hellip;
 
 ## [Articles](/a/)
 
-A collection of articles on ELMAH written by the team. 
+A [collection of articles](/a/) on ELMAH written by the team. 
 
 ## [Discussion Group][discuss]
 
