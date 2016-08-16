@@ -24,9 +24,9 @@ Check out the [elmah tag on StackOverflow][sot] for a question on ELMAH as
 many in the programming community may have already answered it. Try also just
 [searching on StackOverflow][soq].
 
-## [Community Knowledge Base](/a/)
+## [Community Knowledge Base](/community/kb/)
 
-Many people have written articles, blogs and published videos on ELMAH.
+Many people have written [articles, blogs and published videos on ELMAH](/community/kb/).
 
 ## [ELMAH @ NuGet](http://nuget.org/packages?q=ELMAH)
 
