@@ -27,14 +27,14 @@ on the web? [Why not drop a line and let us know?](https://github.com/elmah/www/
 
 ## Blogs
 
-  * [ELMAH Configuration Validator](http://blog.elmah.io/elmah-configuration-validator/)
-  * [ELMAH Security Validator](http://blog.elmah.io/improvement-ten-elmah-security-validator/)
+  * [ELMAH Configuration Validator](https://blog.elmah.io/elmah-configuration-validator/)
+  * [ELMAH Security Validator](https://blog.elmah.io/improvement-ten-elmah-security-validator/)
   * [Code First Migration Script](http://www.eonasdan.com/home/elmah-code-first-migration)
-  * [How to log errors to ELMAH programmatically](http://blog.elmah.io/how-to-log-errors-to-elmah-programmatically/)
+  * [How to log errors to ELMAH programmatically](https://blog.elmah.io/how-to-log-errors-to-elmah-programmatically/)
   * [WCF Logging with ELMAH](http://vivekcek.wordpress.com/2014/06/24/wcf-logging-with-elmah/)
   * [Web API 2.1 - Logging ALL unhandled exceptions with ELMAH](http://jasonwatmore.com/post/2014/05/03/Getting-ELMAH-to-catch-ALL-unhandled-exceptions-in-Web-API-21.aspx)
   * [Capturing Unhandled Exceptions in ASP.NET Web API's with ELMAH](http://blogs.msdn.com/b/webdev/archive/2012/11/16/capturing-unhandled-exceptions-in-asp-net-web-api-s-with-elmah.aspx)
-  * [ELMAH Tutorial](http://blog.elmah.io/elmah-tutorial/) 
+  * [ELMAH Tutorial](https://blog.elmah.io/elmah-tutorial/) 
   * [Reporting Exceptions from ELMAH to Graphite and StatsD](http://www.peschuster.de/2012/10/reporting-exceptions-from-elmah-to-graphite-and-statsd/)
   * [ELMAH and MiniProfiler In ASP.NET MVC 4](http://odetocode.com/Blogs/scott/archive/2012/09/11/elmah-and-miniprofiler-in-asp-net-mvc-4.aspx)
   * [MVC 3 + Elmah - Handle Ajax/json action errors in a generic way](http://plainoldstan.blogspot.co.uk/2012/08/mvc-3-elmah-handle-ajaxjson-action.html)
