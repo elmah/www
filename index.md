@@ -11,7 +11,7 @@ Once ELMAH has been dropped into a running web application and configured approp
   * Logging of nearly all unhandled exceptions.
   * A web page to remotely view the entire log of recoded exceptions.
   * A web page to remotely view the full details of any one logged exception, including colored stack traces.
-  * In many cases, you can review the original [yellow screen of death](http://en.wikipedia.org/wiki/Yellow_Screen_of_Death#ASP.NET) that ASP.NET generated for a given exception, even with `customErrors` mode turned off.
+  * In many cases, you can review the original [yellow screen of death](http://en.wikipedia.org/wiki/Yellow_Screen_of_Death#ASP.NET) that ASP.NET generated for a given exception, even with `customErrors` mode turned on.
   * An e-mail notification of each error at the time it occurs.
   * An RSS feed of the last 15 errors from the log.
 
