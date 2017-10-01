@@ -18,7 +18,7 @@ And not that you need a lesson in search but add the [keyword ELMAH to almost
 any query on Google][search] and you will find there is already plenty out 
 there on the topic.
 
-## [ELMAH @ StackOverlow][sot]
+## [ELMAH @ StackOverflow][sot]
 
 Check out the [elmah tag on StackOverflow][sot] for a question on ELMAH as 
 many in the programming community may have already answered it. Try also just
