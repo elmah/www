@@ -5,6 +5,13 @@ permalink: downloads/
 downloads: true
 ---
 
+<div class="note">
+  <h5 id="bootstrapper"><a href="https://github.com/elmah/Bootstrapper">Bootstrap &rsquo;er</a></h5>
+  <p>If you are using ASP.NET 4.5 or later then consider using
+     <a href="https://github.com/elmah/Bootstrapper">ELMAH Bootstrapper</a>.
+     It is the easiest and simplest way to use ELMAH.</p>
+</div>
+
 * TOC 
 {:toc}
 
