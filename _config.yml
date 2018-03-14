@@ -4,5 +4,5 @@ exclude: [README.md,Gemfile,Gemfile.lock]
 
 repository: https://github.com/elmah/www
 
-gems:
+plugins:
   - jemoji
