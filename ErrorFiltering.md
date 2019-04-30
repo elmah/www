@@ -36,7 +36,7 @@ void ErrorLog_Filtering(object sender, ExceptionFilterEventArgs e)
 }
 {% endhighlight %}
 
-It's really simple as that. When the error logging module receives an exception, it raises the `Filtering` even to see if any listeners wish to dismiss the exception. If an event handler calls the `Dismiss` method of the `ExceptionFilterEventArgs` object then the exception is not logged. Note that dismissing an exception does not clear the error so it still continues to surface as an unhandled exception. Dismissing here means that the module will not log it.
+It's really simple as that. When the error logging module receives an exception, it raises the `Filtering` event to see if any listeners wish to dismiss the exception. If an event handler calls the `Dismiss` method of the `ExceptionFilterEventArgs` object then the exception is not logged. Note that dismissing an exception does not clear the error so it still continues to surface as an unhandled exception. Dismissing here means that the module will not log it.
 
 If you also have the `ErrorMailModule` enabled, the filtering procedure is similar. You setup another event handler based on the name of the module and the event:
 
