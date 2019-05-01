@@ -4,6 +4,13 @@
 error logging facility that is completely pluggable. This is the
 [Jekyll][jekyll] source to the [ELMAH web site][www].
 
+## Building
+
+Assuming Docker and PowerShell(Core) are installed, run:
+
+    PS> ./build.ps1
+
+
 ## Contributing
 
 - Fork this repo; clone locally
@@ -16,19 +23,14 @@ error logging facility that is completely pluggable. This is the
   issue being addressed
 - [Create a pull request][pr]
 
+If you have Docker and PowerShell(Core) installed, an easier way to run
+Jekyll and serve the content is to run `./serve.ps1`.
+
 Make commits atomic and logically coherent. It makes reviews easier and
 reverting easier. Avoid, for example, bundling multiple and unrelated
 changes together into the same commit even if they address the same issue.
 If you are using *and* in your commit message, chances are good you are
 bundling more than one (unrelated) change.
-
-### Contributing on Windows
-
-On Windows, the simplest installation method is to use
-[Portable Jekyll][PortableJekyll]. When using `jekyll serve` or `jekyll build`,
-file monitoring can be problematic, causing constant rebuilding of the static
-version of the site. Use the `--force_polling` as a workaround for either the
-`server` or `build` subcommand.
 
 
   [elmah]: https://code.google.com/p/elmah/
