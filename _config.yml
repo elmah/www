@@ -1,6 +1,11 @@
 markdown: kramdown
 highlighter: pygments
-exclude: [README.md,Gemfile,Gemfile.lock]
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - "*.sh"
+  - "*.ps1"
 
 repository: https://github.com/elmah/www
 
