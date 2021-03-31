@@ -3,7 +3,7 @@ param(
     [Parameter(Mandatory = $true, Position = 0)]
     [string]$Command,
     [int]$Port = 4000,
-    [string]$Version = '3.6.2')
+    [string]$Version = '3.8.6')
 
 docker run `
     -it --rm `
