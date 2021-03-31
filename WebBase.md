@@ -121,8 +121,7 @@ on the web? [Why not drop a line and let us know?](https://github.com/elmah/www/
 
 ## Tools
 
-  * [ELMAH Configuration Validator](https://elmah.io/tools/configvalidator)
-  * [ELMAH Security Validator](https://elmah.io/tools/securityvalidator)
+  * [ELMAH Configuration Validator](https://elmah.io/tools/configvalidator/)
 
 ## Attic
 
