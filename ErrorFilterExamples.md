@@ -5,7 +5,7 @@ permalink: a/error-filtering/examples/
 article: true
 ---
 
-Do you have a handy error fitler configuration that you have used time and time again? Why not share it? Drop it as a comment to this wiki and we'll add it here.
+Do you have a handy error filter configuration that you have used time and time again? Why not share it? Drop it as a comment to this wiki and we'll add it here.
 
 To learn more about how to filter harmless or noisy errors from your logs, see "[Error Filtering](/a/error-filtering/)".
 
