@@ -8,11 +8,11 @@ article: true
 <div class="note info">
   <h5>Historical</h5>
   <p>
-    Since ASP.NET MVC 1.0 ignores <code>.axd</code> rules by default this Guide has become mostly irrelevant. For detailed installation instructions look at the <a href="http://dotnetslackers.com/articles/aspnet/ErrorLoggingModulesAndHandlers.aspx">DotNetSlackers Article</a>.
+    Since ASP.NET MVC 1.0 ignores <code>.axd</code> rules by default this Guide has become mostly irrelevant. For detailed installation instructions look at the <a href="https://web.archive.org/web/20170612172834/http://dotnetslackers.com/articles/aspnet/ErrorLoggingModulesAndHandlers.aspx">DotNetSlackers Article</a>.
   </p>
 </div>
 
-Setting up ELMAH on MVC is really simple since most of the work is done in `web.config` that is more or less shared between MVC and Webforms. There are already [excellent](http://dotnetslackers.com/articles/aspnet/ErrorLoggingModulesAndHandlers.aspx) (and more detailed) articles on how to configure and fine tune ELMAH. This article is intended to provide a quick and simple tutorial on the most important steps to get ELMAH up and running on MVC.
+Setting up ELMAH on MVC is really simple since most of the work is done in `web.config` that is more or less shared between MVC and Webforms. There are already [excellent](https://web.archive.org/web/20170612172834/http://dotnetslackers.com/articles/aspnet/ErrorLoggingModulesAndHandlers.aspx) (and more detailed) articles on how to configure and fine tune ELMAH. This article is intended to provide a quick and simple tutorial on the most important steps to get ELMAH up and running on MVC.
 
 For advanced users seeking MVC-specific information, skip ahead to [Step 4](#step-4-configure-routing).
 
