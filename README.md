@@ -4,27 +4,18 @@
 error logging facility that is completely pluggable. This is the
 [Jekyll][jekyll] source to the [ELMAH web site][www].
 
-## Building
-
-Assuming Docker and PowerShell(Core) are installed, run:
-
-    PS> ./build.ps1
-
 
 ## Contributing
 
 - Fork this repo; clone locally
 - [Pick or open an issue][issues] to resolve; discuss first
-- [Install Jekyll][jkinst]
-- Run `jekyll serve` on your local clone
+- [Install Jekyll][jkinst] or use a [dev container]
+- Run `bundle exec jekyll serve` on your local clone
 - Hack away pages in your favorite text editor
 - Test in your local browser
 - When happy, commit your changes to a branch appropriately named after the
   issue being addressed
 - [Create a pull request][pr]
-
-If you have Docker and PowerShell(Core) installed, an easier way to run
-Jekyll and serve the content is to run `./serve.ps1`.
 
 Make commits atomic and logically coherent. It makes reviews easier and
 reverting easier. Avoid, for example, bundling multiple and unrelated
@@ -40,3 +31,4 @@ bundling more than one (unrelated) change.
   [jekyll]: http://jekyllrb.com/
   [jkinst]: http://jekyllrb.com/docs/installation/
   [PortableJekyll]: https://github.com/madhur/PortableJekyll
+  [dev container]: .devcontainer/devcontainer.json
