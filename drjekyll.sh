@@ -10,7 +10,7 @@ apk add --no-cache ruby-dev
 apk add --no-cache make
 apk add --no-cache gcc
 apk add --no-cache libc-dev
-apk add --no-cache python
+apk add --no-cache python2
 apk add --no-cache py-pygments
 
 gem install pygments.rb
